@@ -29,7 +29,7 @@ for it_name = 1:length(dataname)
     delta=  10^(0);
     anchor = 2*cls_num;
     tic;
-    [Z,Sbar,A,Q,y,converge_Z,converge_F,converge_Z_G] = MM(X, cls_num, anchor,alpha,gamma,delta);
+    [H,Z,Sbar,A,Q,y,converge_Z,converge_F,converge_Z_G] = Train_4new(X, cls_num, anchor,alpha,gamma,delta);
     time = toc;
     %[ii,jj,hh,kk]=findnumber(1600,-6,1,-6,1,-6,1,1,7)%%查找具体某个数据对应的参数
     [result(ii,:)]=  Clustering8Measure(gt, y);
