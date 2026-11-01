@@ -33,10 +33,13 @@ If you need access to these datasets to reproduce our results or test your own m
 If you find our work or code helpful for your research, please consider citing our paper:
 
 ```bibtex
-@article{kong2026tmm, 
-  title={ATMCA: Augmented Tensorized Consensus Learning for Multi-view Clustering with Anchor-Aligned},
+@ARTICLE{11604136,
   author={Kong, Zisen and Li, Pengyuan and Chang, Dongxia and Wang, Yiming and Zhao, Yao},
-  journal={IEEE Transactions on Multimedia},
-  year={2026}
-}
+  journal={IEEE Transactions on Multimedia}, 
+  title={ATMCA: Augmented Tensorized Consensus Learning for Multi-View Clustering With Anchor-Aligned}, 
+  year={2026},
+  volume={28},
+  number={},
+  pages={11636-11647}}
+
 
